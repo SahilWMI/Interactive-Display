@@ -9,3 +9,9 @@ function setup() {
 
     b = new CSSLayerBlockRule(width/2, height/2);
 }
+
+function draw() {
+    background(220);
+    b.move();
+    b.display();
+}
